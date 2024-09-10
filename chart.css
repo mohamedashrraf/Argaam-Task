@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.percentage-label {
+    position: absolute;
+    font-weight: bold;
+    color: #d49542;
+}
+
+#label-2018 {
+    top: 80px;
+    left: 50px;
+}
+
+#label-2019 {
+    top: 75px;
+    left: 150px;
+}
+
+#label-2020 {
+    top: 70px;
+    left: 250px;
+}
+
+#label-2021 {
+    top: 65px;
+    left: 350px;
+}
+
+#label-2022 {
+    top: 60px;
+    left: 450px;
+}
+
+#label-2023 {
+    top: 55px;
+    left: 550px;
+}
